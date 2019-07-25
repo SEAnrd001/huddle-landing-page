@@ -38,7 +38,8 @@ nav ul li,
     font-size: 1.5em;
 }
 
-h1 {
+h1,
+h2 {
     font-family: [Poppins];
     font-weight: 600;
     font-size: 1.5em;
@@ -78,20 +79,27 @@ img {
 
 .img-right {
     float: right;
+    margin-bottom: 30px;
 }
 
 .grid .push-down div {
     margin-top: 100px;
 }
 
-.grid h2 {
+.grid h2,
+.grow h2,
+.flow-content h2,
+.users-content h2 {
     /* margin-top: -20px; */
     text-transform: capitalize;
     font-size: 2.0em;
     font-weight: 600;
 }
 
-.grid p {
+.grid p,
+.grow p,
+.flow-content p,
+.users-content {
     text-align: left;
     margin-top: 20px;
     font-size: 16px;
@@ -109,6 +117,61 @@ img {
     border-radius: 15px;
     text-transform: capitalize;
     font-weight: 700;
+}
+
+
+/* session */
+
+.session {
+    width: 100%;
+}
+
+
+/* grow-together */
+
+.grow-together,
+.flowing,
+.your-users {
+    border: 1px solid #eee;
+    border-radius: 18px;
+    width: 90%;
+    margin: 60px auto;
+    box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+.grow,
+.flow,
+.users {
+    width: 45%;
+    display: inline-block;
+    padding: 30px;
+}
+
+.grow .grow-img {
+    width: 80%;
+}
+
+.div-right {
+    float: right;
+}
+
+.grow-content,
+.users-content {
+    margin: 70px auto 0;
+    padding: 30px 0 0 50px;
+}
+
+.flow-content {
+    margin: 150px auto 30px;
+    padding: 20px;
+}
+
+.grow-content p,
+.flow-content p,
+.users-content p {
+    color: hsl(195, 2%, 67%);
+    line-height: 1.6em;
+    margin-top: 20px;
 }
 
 .attribution {
