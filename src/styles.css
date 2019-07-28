@@ -232,6 +232,9 @@ footer a img {
 }
 
 @media only screen and (max-width: 600px) {
+    .header-background {
+        width: 100%;
+    }
     [class*="col-"] {
         width: 100%;
     }
@@ -251,9 +254,27 @@ footer a img {
         width: 100%;
         padding: 5px;
     }
+    nav ul {
+        display: block;
+    }
+    nav ul li img {
+        width: 90px
+    }
+    .sign-in button {
+        padding: 8px 20px;
+        font-size: .7em;
+        font-weight: 600;
+        margin-right: 4px;
+    }
+    footer a img {
+        width: 150px;
+    }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (width: 375px) {
+    .header-background {
+        width: 100%;
+    }
     [class*="col-"] {
         width: 100%;
     }
@@ -276,5 +297,20 @@ footer a img {
     }
     .footer-container ul li {
         text-align: center;
+    }
+    nav ul {
+        display: block;
+    }
+    nav ul li img {
+        width: 90px
+    }
+    .sign-in button {
+        padding: 8px 20px;
+        font-size: .7em;
+        font-weight: 600;
+        margin-right: 4px;
+    }
+    footer a img {
+        width: 150px;
     }
 }
